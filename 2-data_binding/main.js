@@ -20,6 +20,7 @@ text = svg.selectAll('text')
       .enter()
       .append('text')
       .attr('x', (d,i) => d*5)
+      // this is referring to the placement 
       .attr('y', 80)
       .text(d => d)
       .style('text-anchor', 'middle')

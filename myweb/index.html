@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Laura's Personal Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Laura Boelsterli</h1>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="showSection('about')">About Me</a></li>
+        <li><a href="#" onclick="showSection('portfolio')">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- About Me Section -->
+    <section id="about" class="content-section">
+      <h2>About Me</h2>
+      <p>Welcome! I'm Laura Boelsterli, a data science student with a passion for environmental sciences, GIS, and data visualizations. Here you can learn more about my journey, projects, and more.</p>
+    </section>
+
+    <!-- Portfolio Section -->
+    <!-- doesnt display this page by default-->
+    <section id="portfolio" class="content-section" style="display: none;">
+      <h2>Portfolio</h2>
+      <div class="portfolio-item">
+        <h3>Data Visualizations</h3>
+        <p>Explore my interactive dashboards and data visualizations. <a href="dashboard.html">Check out my Dashboard</a></p>
+      </div>
+      <div class="portfolio-item">
+        <h3>Projects</h3>
+        <p>View my latest projects on data science and GIS. <a href="projects.html">See My Projects</a></p>
+      </div>
+      <div class="portfolio-item">
+        <h3>Art</h3>
+        <p>I enjoy creating art in my free time. <a href="art.html">See My Art Portfolio</a></p>
+      </div>
+    </section>
+  </main>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
