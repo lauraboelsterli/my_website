@@ -11,8 +11,8 @@
     <h1>Laura Boelsterli</h1>
     <nav>
       <ul>
-        <li><a href="#" onclick="showSection('about')">About Me</a></li>
-        <li><a href="#" onclick="showSection('portfolio')">Portfolio</a></li>
+        <li><a href="#" id="about-link">About Me</a></li>
+        <li><a href="#" id="portfolio-link">Portfolio</a></li>
       </ul>
     </nav>
   </header>
@@ -21,11 +21,15 @@
     <!-- About Me Section -->
     <section id="about" class="content-section">
       <h2>About Me</h2>
-      <p>Welcome! I'm Laura Boelsterli, a data science student with a passion for environmental sciences, GIS, and data visualizations. Here you can learn more about my journey, projects, and more.</p>
+      <p>Welcome! I'm Laura Boelsterli, a data science student passionate about environmental sciences, GIS, and design. Here, you'll find more about my journey, projects, and interests.</p>
+      <p>I grew up living around the world, from Mexico City, Mexico, to White Plains, New York, and Miami, Florida, before moving to Boston to study at Northeastern University. My family has roots in Germany, Switzerland, and Colombia, which has fueled my love for travel and exploration.</p>
+      <p>I'm also an avid sports enthusiast, especially in biking, tennis, and watersports. While living in Miami, I was part of an organization called Shake-A-Leg, where I helped lead group watersport activities and promoted accessibility in watersports for all. Additionally, I have a passion for music and co-host a radio show every weekend at 8 PM. Tune in @ 104.9FM Boston or <a href="https://wrbbradio.org/">listen to my show</a> online!</p>
+      <a href="https://wrbbradio.org/">
+        <img id="wrbbImage" src="wrbbimage_4200.png" alt="Click here to listen">
+      </a>
     </section>
-
+    
     <!-- Portfolio Section -->
-    <!-- doesnt display this page by default-->
     <section id="portfolio" class="content-section" style="display: none;">
       <h2>Portfolio</h2>
       <div class="portfolio-item">
@@ -35,10 +39,6 @@
       <div class="portfolio-item">
         <h3>Projects</h3>
         <p>View my latest projects on data science and GIS. <a href="projects.html">See My Projects</a></p>
-      </div>
-      <div class="portfolio-item">
-        <h3>Art</h3>
-        <p>I enjoy creating art in my free time. <a href="art.html">See My Art Portfolio</a></p>
       </div>
     </section>
   </main>

@@ -62,3 +62,11 @@ body {
     text-decoration: underline;
   }
   
+
+  img {
+    transition: filter 0.3s ease; /* Smooth transition for the color change */
+  }
+  
+  img:hover {
+    filter: hue-rotate(90deg); /* Adjust the value for different color effects */
+  }
