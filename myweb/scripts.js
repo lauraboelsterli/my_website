@@ -42,11 +42,41 @@ function showSection(sectionId) {
 }
 
 // Handle the back/forward navigation (popstate event) for portolio page that it retunrs to portfolio not home page 
-window.addEventListener('popstate', (event) => {
-  if (event.state && event.state.section) {
-    showSection(event.state.section);
-  } else {
-    showSection('portfolio');  // Default back to the portfolio section, 
-    // dont default back to portfolio section, rather the most recent page that was being used before that 
+// window.addEventListener('popstate', (event) => {
+//   if (event.state && event.state.section) {
+//     showSection(event.state.section);
+//   } else {
+//     showSection('portfolio');  // Default back to the portfolio section, 
+//     // dont default back to only portfolio section, rather the most recent page that was being used before that 
+//   }
+// });
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  // Get the modal
+  var modal = document.getElementById("contact-modal");
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("contact-btn");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks the button, open the modal 
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
   }
 });
+
