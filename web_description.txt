@@ -1,0 +1,22 @@
+hyperlink to my web: https://lauraboelsterli.github.io/my_website/
+
+1. Custom Fonts and Typography
+Serif Font (Georgia): For the body text, the serif font 'Georgia' is used to give the website a more traditional and elegant feel, 
+contrasting the modern look of the headings. This adds a nice blend of classic and modern typography styles, improving readability 
+and enhancing the visual hierarchy.
+
+2. Custom Background Gradient
+Diagonal Background Gradient: Instead of a solid background, 
+the website uses a linear gradient that transitions from light gray (#f5f5f5) to a darker gray (#e0e0e0). 
+This adds depth and a sleek, modern touch to the overall design, improving the visual appeal without distracting from the content.
+
+3. Hover Effects on Links and Images
+Links: When a user hovers over navigation links, the color changes from light blue to a darker shade (#80deea). 
+This subtle change provides interactive feedback to the user, improving the overall user experience.
+Images: For images, a hue-rotate effect is applied, changing the color tones when hovered. This adds a dynamic and 
+visually interesting interaction to the page, making it more engaging.
+
+4. Customized Modal Window
+Modal Styling: The modal window for the "Contact Me" section is customized with a semi-transparent background overlay 
+(rgba(0,0,0,0.4)) to dim the page when the modal is active. The modal itself has a rounded border for a modern look. 
+Additionally, the close button has a hover effect that changes its color to black for better visibility when hovered.
